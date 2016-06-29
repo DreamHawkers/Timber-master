@@ -261,7 +261,10 @@ public class MainActivity extends BaseActivity implements ATEActivityThemeCustom
         if (panelLayout.isPanelExpanded())
             panelLayout.collapsePanel();
         else {
-            super.onBackPressed();
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            startActivity(intent);
         }
 
     }
