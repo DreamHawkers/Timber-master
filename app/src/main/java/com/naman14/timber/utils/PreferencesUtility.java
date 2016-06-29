@@ -133,6 +133,7 @@ public final class PreferencesUtility {
         editor.apply();
     }
 
+    //DREAMHAWKER_START
     public void setShakeActionPreference(String preference) {
         final SharedPreferences.Editor editor = mPreferences.edit();
         editor.putString(SHAKE_ACTION_PREFERENCE, preference);
@@ -144,6 +145,9 @@ public final class PreferencesUtility {
         editor.putString(SHAKE_THRESHOLD_PREFERENCE, preference);
         editor.apply();
     }
+
+
+    //DREAMHAWKERS_STOP
 
     public boolean lastOpenedIsStartPagePreference() {
         return mPreferences.getBoolean(START_PAGE_PREFERENCE_LASTOPENED, true);

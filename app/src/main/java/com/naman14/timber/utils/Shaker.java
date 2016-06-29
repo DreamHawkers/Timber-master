@@ -77,6 +77,7 @@ public class Shaker extends Service implements SensorEventListener {
                 Log.d("Acceleration", "Acceleration is " + acceleration + "m/s^2");
 
                 String threshold = sharedPreferences.getString(SHAKE_THRESHOLD_PREFERENCE, "medium");
+                //DREAM_HAWKERS CHAHGE SHAKE_THRESHOLD DEPENDING ON YOUR REQUIREMENT
                 float SHAKE_THRESHOLD;
                 if(threshold.equals("high"))
                     SHAKE_THRESHOLD = 40.5f;

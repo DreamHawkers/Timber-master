@@ -88,6 +88,8 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
 //            }
 //        });
 
+        //DREAMHAWKERS_START
+
         shakeThresholdPreference.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -107,6 +109,10 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
                 return true;
             }
         });
+
+
+        //DREAMHAWKERS_STOP
+
 
         startPagePreference.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override

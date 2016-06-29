@@ -4,7 +4,15 @@
     package="com.naman14.timber">
 
     <uses-sdk tools:overrideLibrary="de.Maxr1998.trackselectorlib" />
+    <!-->
+         DREAMHAWKERS_START
+    <-->
+
     <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+    <!-->
+           DREAMHAWKERS_STOP
+    <-->
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -96,6 +104,9 @@
             </intent-filter>
         </service>
 
+        <!-->
+               DREAMHAWKERS
+        <-->
         <service android:name=".utils.Shaker"/>
 
     </application>

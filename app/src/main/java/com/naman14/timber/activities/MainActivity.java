@@ -198,8 +198,11 @@ public class MainActivity extends BaseActivity implements ATEActivityThemeCustom
             }, 350);
         }
 
+        //DREAMHAWKER_START
         Intent serviceIntent = new Intent(getInstance(), Shaker.class);
         startService(serviceIntent);
+
+        //DREAMHAWKERS_STOP
     }
 
     private void loadEverything() {

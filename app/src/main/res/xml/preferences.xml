@@ -11,6 +11,10 @@
 
     </com.naman14.timber.widgets.ThemedPreferenceCategory>
 
+    <!-->
+       DREAMHAWKERS_START
+    <-->
+
     <com.naman14.timber.widgets.ThemedPreferenceCategory android:title="@string/shake_action">
 
         <com.afollestad.appthemeengine.prefs.ATEListPreference
@@ -34,6 +38,9 @@
 
     </com.naman14.timber.widgets.ThemedPreferenceCategory>
 
+    <!-->
+           DREAMHAWKERS_STOP
+    <-->
 
     <com.naman14.timber.widgets.ThemedPreferenceCategory android:title="@string/personalisation">
 
